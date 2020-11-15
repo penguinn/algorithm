@@ -2,7 +2,7 @@ package sort
 
 // 归并排序
 // 把数据二分拆开，然后两两归并
-// 空间复杂度O(n)，这里空间可以再优化一下，时间复杂度O(n2),稳定排序
+// 空间复杂度O(n)，这里空间可以再优化一下，时间复杂度O(nlogn),稳定排序
 func MergeSort(data []int) []int {
 	length := len(data)
 	if length <= 1 {
